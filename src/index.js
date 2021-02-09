@@ -1,13 +1,17 @@
+import 'whatwg-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //As am getting warning on toggle navbar that StrictMode is deprecated
+  //therefor commenting out strictMode, it should be check again! 
+  //<React.StrictMode>
+  <App />,
+  //</React.StrictMode>,
   document.getElementById('root')
 );
 

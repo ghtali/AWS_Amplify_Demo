@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Demo_AWS",
+  "name": "Demonstration of MERN stack on AWS",
   "icons": [
     {
       "src": "favicon.ico",
